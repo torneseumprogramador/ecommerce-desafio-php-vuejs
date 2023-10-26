@@ -8,7 +8,7 @@ export class ClienteService {
               method: 'GET',
               headers: {
                 'Content-Type': 'application/json',
-                'Authorization': `Bearer ${api.token}`
+                'Authorization': `Bearer ${localStorage.getItem("token")}`
               }
             });
         
@@ -42,7 +42,7 @@ export class ClienteService {
             method: 'GET',
             headers: {
               'Content-Type': 'application/json',
-              'Authorization': `Bearer ${api.token}`
+              'Authorization': `Bearer ${localStorage.getItem("token")}`
             }
           });
       
@@ -69,7 +69,7 @@ export class ClienteService {
             method: 'DELETE',
             headers: {
               'Content-Type': 'application/json',
-              'Authorization': `Bearer ${api.token}`
+              'Authorization': `Bearer ${localStorage.getItem("token")}`
             }
           });
       
@@ -94,7 +94,7 @@ export class ClienteService {
             method: 'POST',
             headers: {
               'Content-Type': 'application/json',
-              'Authorization': `Bearer ${api.token}`
+              'Authorization': `Bearer ${localStorage.getItem("token")}`
             },
             body: JSON.stringify(cliente),
           });
@@ -121,7 +121,7 @@ export class ClienteService {
             method: 'PUT',
             headers: {
               'Content-Type': 'application/json',
-              'Authorization': `Bearer ${api.token}`
+              'Authorization': `Bearer ${localStorage.getItem("token")}`
             },
             body: JSON.stringify(cliente),
           });

@@ -1,4 +1,3 @@
 export const api = {
-    "host": "http://localhost:8081",
-    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2OTgyMzAwOTgsIm5iZiI6MTY5ODIzMDA5OCwiZXhwIjoxNjk4MjMzNjk4LCJlbWFpbExvZ2FkbyI6ImFkbUB0ZXN0ZS5jb20iLCJwZXJtaXNzYW8iOlt7ImNvbnRyb2xsZXIiOiJDbGllbnRlcyIsImFjdGlvbiI6ImluZGV4In0seyJjb250cm9sbGVyIjoiQ2xpZW50ZXMiLCJhY3Rpb24iOiJjYWRhc3RyYXIifSx7ImNvbnRyb2xsZXIiOiJDbGllbnRlcyIsImFjdGlvbiI6Im1vc3RyYXIifSx7ImNvbnRyb2xsZXIiOiJDbGllbnRlcyIsImFjdGlvbiI6ImNyaWFyIn0seyJjb250cm9sbGVyIjoiQ2xpZW50ZXMiLCJhY3Rpb24iOiJhdHVhbGl6YXIifSx7ImNvbnRyb2xsZXIiOiJDbGllbnRlcyIsImFjdGlvbiI6ImV4Y2x1aXIifV19.5pVW0sUX4v_d6x2nfGFJ1fqhg5EAlN9DQ-WfYgVDnX0"
+    "host": "http://localhost:8081"
 };
