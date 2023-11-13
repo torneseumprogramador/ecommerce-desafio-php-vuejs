@@ -1,3 +1,3 @@
 export const api = {
-    "host": "http://localhost:8081"
+    "host": "https://api.daniloaparecido.com.br"
 };
